@@ -1,5 +1,5 @@
-import 'package:fapp/utils/custom_widgets/button.dart';
-import 'package:fapp/utils/custom_widgets/or_divider.dart';
+import 'package:fapp/utils/custom/button.dart';
+import 'package:fapp/utils/custom/or_divider.dart';
 import 'package:fapp/screens/loginscreens/login.dart';
 import 'package:fapp/screens/loginscreens/signup.dart';
 import 'package:flutter/material.dart';

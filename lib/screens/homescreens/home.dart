@@ -1,7 +1,7 @@
 // ignore_for_file: avoid_print
 
-import 'package:fapp/utils/custom_widgets/listviewhori.dart';
-import 'package:fapp/utils/custom_widgets/listviewverti.dart';
+import 'package:fapp/utils/custom/listviewhori.dart';
+import 'package:fapp/utils/custom/listviewverti.dart';
 import 'package:flutter/material.dart';
 
 class Homepage extends StatefulWidget {
@@ -71,6 +71,7 @@ class _HomepageState extends State<Homepage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        automaticallyImplyLeading: false,
         title: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [

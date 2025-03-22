@@ -1,4 +1,4 @@
-import 'package:fapp/utils/custom_widgets/or_divider.dart';
+import 'package:fapp/utils/custom/or_divider.dart';
 import 'package:flutter/material.dart';
 
 class SocalSignUp extends StatelessWidget {
@@ -15,13 +15,13 @@ class SocalSignUp extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             SocalIcon(
-              iconSrc: "assets/images/google.png",
+              iconSrc: "assets/icons/google.png",
               press: () {},
               h: 50,
               w: 50,
             ),
             SocalIcon(
-              iconSrc: "assets/images/facebook.png",
+              iconSrc: "assets/icons/facebook.png",
               press: () {},
               h: 35,
               w: 35,

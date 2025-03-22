@@ -1,6 +1,6 @@
-import 'package:fapp/utils/custom_widgets/button.dart';
-import 'package:fapp/utils/custom_widgets/google_auth.dart';
-import 'package:fapp/utils/custom_widgets/textformfield.dart';
+import 'package:fapp/utils/custom/button.dart';
+import 'package:fapp/utils/custom/google_auth.dart';
+import 'package:fapp/utils/custom/textformfield.dart';
 import 'package:fapp/screens/loginscreens/login.dart';
 import 'package:flutter/material.dart';
 
@@ -21,15 +21,15 @@ class _SignuppageState extends State<Signuppage> {
     return Scaffold(
       body: Stack(
         children: [
-          Container(
+          SizedBox(
             height: size.height,
             width: size.width,
-            decoration: const BoxDecoration(
-              image: DecorationImage(
-                image: AssetImage('assets/images/bg3.jpg'),
-                fit: BoxFit.fill,
-              ),
-            ),
+            // decoration: const BoxDecoration(
+            //   image: DecorationImage(
+            //     image: AssetImage('assets/images/bg3.jpg'),
+            //     fit: BoxFit.fill,
+            //   ),
+            // ),
           ),
           Positioned(
             top: size.height * 0.15,
