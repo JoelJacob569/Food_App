@@ -12,14 +12,12 @@ class _NearbyState extends State<Nearby> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
-      body: Container(
-        child: Center(
-          child: Text(
-            'Nearby',
-            style: TextStyle(
-              fontSize: 30,
-              fontWeight: FontWeight.bold,
-            ),
+      body: const Center(
+        child: Text(
+          'Nearby',
+          style: TextStyle(
+            fontSize: 30,
+            fontWeight: FontWeight.bold,
           ),
         ),
       ),

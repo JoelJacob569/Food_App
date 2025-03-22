@@ -6,7 +6,8 @@ class FoodCategoryList extends StatelessWidget {
   // Define a variable to hold the onTap callback function
   final void Function(FoodCategory category) onCategoryTap;
 
-  FoodCategoryList({required this.foodCategories, required this.onCategoryTap});
+  const FoodCategoryList(
+      {super.key, required this.foodCategories, required this.onCategoryTap});
 
   @override
   Widget build(BuildContext context) {
@@ -19,7 +20,7 @@ class FoodCategoryList extends StatelessWidget {
             onTap: () => onCategoryTap(
                 foodCategories[index]), // Call the callback function
             child: Container(
-              margin: EdgeInsets.symmetric(horizontal: 8),
+              margin: const EdgeInsets.symmetric(horizontal: 8),
               child: Column(
                 children: [
                   Image.asset(

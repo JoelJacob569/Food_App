@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_print
+
 import 'package:fapp/utils/custom_widgets/listviewhori.dart';
 import 'package:fapp/utils/custom_widgets/listviewverti.dart';
 import 'package:flutter/material.dart';

@@ -28,7 +28,7 @@ class _AddFoodState extends State<AddFood> {
                 height: size.height * 0.62,
                 width: size.width * 0.89,
                 decoration: BoxDecoration(
-                  color: Colors.grey.withOpacity(0.5),
+                  color: Colors.grey.withValues(alpha: 0.5),
                   borderRadius: BorderRadius.circular(20),
                 ),
                 child: buildadd()),

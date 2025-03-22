@@ -6,11 +6,11 @@ class CustomTextfield extends StatelessWidget {
   final bool isObscure;
 
   const CustomTextfield({
-    Key? key,
+    super.key,
     this.text = '',
     this.control,
     this.isObscure = false,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

@@ -12,10 +12,8 @@ class _SettingsState extends State<Settings> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
-      body: Container(
-        child: Center(
-          child: Text('Settings'),
-        ),
+      body: const Center(
+        child: Text('Settings'),
       ),
     );
   }

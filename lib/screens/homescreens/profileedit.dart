@@ -14,21 +14,19 @@ class _ProfileeditState extends State<Profileedit> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(),
-        body: Container(
-          child: Column(
-            children: [
-              const CustomTextfield(text: 'username'),
-              const SizedBox(height: 10),
-              const CustomTextfield(text: 'address'),
-              const SizedBox(height: 10),
-              const CustomTextfield(text: 'phone No.'),
-              const SizedBox(height: 10),
-              Custombutton(
-                text: 'Submit',
-                press: () {},
-              )
-            ],
-          ),
+        body: Column(
+          children: [
+            const CustomTextfield(text: 'username'),
+            const SizedBox(height: 10),
+            const CustomTextfield(text: 'address'),
+            const SizedBox(height: 10),
+            const CustomTextfield(text: 'phone No.'),
+            const SizedBox(height: 10),
+            Custombutton(
+              text: 'Submit',
+              press: () {},
+            )
+          ],
         ));
   }
 }

@@ -1,4 +1,4 @@
-import 'package:fapp/screens/mainhome.dart';
+import 'package:fapp/screens/homescreens/mainhome.dart';
 import 'package:fapp/utils/custom_widgets/button.dart';
 import 'package:fapp/utils/custom_widgets/google_auth.dart';
 import 'package:fapp/utils/custom_widgets/textformfield.dart';

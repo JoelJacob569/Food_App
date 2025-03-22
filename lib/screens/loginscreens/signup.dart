@@ -38,7 +38,7 @@ class _SignuppageState extends State<Signuppage> {
               height: size.height * 0.62,
               width: size.width * 0.89,
               decoration: BoxDecoration(
-                color: Colors.grey.withOpacity(0.7),
+                color: Colors.grey.withValues(alpha: 0.7),
                 borderRadius: BorderRadius.circular(20),
               ),
               child: buildsignup(),

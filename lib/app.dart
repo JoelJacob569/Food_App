@@ -1,4 +1,4 @@
-import 'package:fapp/screens/welcome.dart';
+import 'package:fapp/screens/loginscreens/welcome.dart';
 import 'package:flutter/material.dart';
 
 class MyApp extends StatelessWidget {
